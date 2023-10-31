@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.notes{
+    border: solid;
+    margin: 10px;
+    width: 300px;
+}
+
+.note1{
+    border-color: blue;
+}
+
+.note2{
+    border-color: yellow;
+}
+
+.note3{
+    border-color: red;
+}

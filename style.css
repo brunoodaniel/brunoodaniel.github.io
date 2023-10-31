@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(128, 128, 128, 0.352);
 }
 
 header{
@@ -17,6 +18,29 @@ header{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.education{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.experience{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.skills{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+
 }
 
 #foto-perfil{
