@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário</h2>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="mensagem">Motivo do contato</label>
+            <select name="opcoes" id="opcoes">
+                <option value="opcao1">Feedback</option>
+                <option value="opcao2">Suporte</option>
+                <option value="opcao3">Consulta</option>
+                <option value="opcao4">Reclamação</option>
+            </select>
+
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
