@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style - ex01.css">
 
 </head>
 <body>
@@ -20,17 +20,21 @@
 
             <label for="mensagem">Motivo do contato</label>
             <select name="opcoes" id="opcoes">
-                <option value="opcao1">Feedback</option>
-                <option value="opcao2">Suporte</option>
-                <option value="opcao3">Consulta</option>
-                <option value="opcao4">Reclamação</option>
+                <option disabled selected value>Selecione uma opção</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Suporte">Suporte</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Reclamação">Reclamação</option>
             </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" rows="4" id="mensagem"></textarea>
 
             <button type="button" onclick="submitForm()">Enviar</button>
         </form>
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="script - ex01.js"></script>
 </body>
 </html>

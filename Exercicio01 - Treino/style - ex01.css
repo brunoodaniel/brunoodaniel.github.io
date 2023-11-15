@@ -8,10 +8,15 @@ body{
 }
 
 .container{
-    background-color: rgba(162, 209, 226, 0.786);
+    background-color: rgba(139, 182, 201, 0.786);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30vw;
+}
+
+.container h2{
+    text-align: center;
 }
 
 form{
@@ -23,7 +28,7 @@ label{
     margin-bottom: 5px;
 }
 
-input, textarea{
+input, select, textarea{
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid azure;

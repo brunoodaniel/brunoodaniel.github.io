@@ -1,14 +1,15 @@
 function submitForm() {
     var nome = document.getElementById('nome').value;
     var email = document.getElementById('email').value;
-    var opcao = document.getElementById('opcao').value;
+    var opcao = document.getElementById('opcoes').value;
+    var msg = document.getElementById('mensagem').value;
 
-    if (nome === '' || email === '') {
+    if (nome === '' || email === '' || opcao === '' || msg === '') {
         alert('Por favor, preencha todos os campos.');
     } else if (!isValidEmail(email)) {
         alert('Por favor, insira um endereço de e-mail válido.');
     } else {
-        alert(nome + ' ' + email + ' ' + opcao + ' ');
+        alert("Nome: " + nome + "\nEmail: " + email + "\nMotivo do contato: " + opcao + "\nMensagem: " + msg);
     }
 }
 
