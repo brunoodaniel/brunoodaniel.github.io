@@ -18,6 +18,5 @@ let currentIndex = 0;
     items.forEach(item => item.classList.remove('active'));
     items[currentIndex].classList.add('active');
   }
-
-  // Exibir a primeira imagem ao carregar a página
+  
   showSlides();
