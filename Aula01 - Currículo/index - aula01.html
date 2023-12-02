@@ -5,54 +5,89 @@
         <link rel="stylesheet" href="style - aula01.css">
     </head>
     <body>
+        <div id="hamburguinho">
+            <button id="hamburguer" class="hamb-icone">&#9776;</button>
+
+        <nav class="menuzinho">
+            <ul>
+                <li><a href="index - aula01.html" id="info-link">Home</a></li>
+                <li><a href="#education">Educação</a></li>
+                <li><a href="#experience">Experiência Profissional</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="Pagina de contato.html">Contato</a></li>
+
+            </ul>
+        </nav>
+
+        </div>
+        
         <header>
 
-            <div id="foto">
-                <img id="foto-perfil" src="foto perfil.jpg" alt="Foto de perfil">
-            </div>
+            <img src="foto perfil.jpg" alt="Foto de perfil">
 
             <div id="informações">
                 <h1>Bruno Daniel Silva</h1>
-                <p>Email: brunodanielsilva2002@gmail.com</p>
-                <p>Telefone: (35) 99852-9913</p>
-                <p>Rua uro Minas, 190, Conceição dos Ouros-MG</p>
+                <p>Rua Ouro Minas, 190 - Cachoeirinha | Conceição dos Ouros - MG</p>
+                <p>Email: brunodanielsilva2002@gmail.com | Telefone: (35) 99852-9913</p>
+                <p></p>
             </div>
-
+            
 
         </header>
 
-        <section class="education">
-            <h2>Educação</h1>
-            <div class="item">
-                <h3>Nome da universidade</h3>
-                <p>Bacharelado em Sistemas de Informação</p>
-                <p>2023-Atual</p>
-            </div>
-        </section>
+        <main>
+            <section id="education" class="education">
+                <h2>Educação</h1>
+                <div class="item">
+                    <h3>Universidade do Vale do Sapucaí (Univás)</h3>
+                    <p>Bacharelado em Sistemas de Informação</p>
+                    <p><strong>2022-2025</strong></p>
+                </div>
 
-        <section class="experience">
-            <h2>Experiência profissional</h1>
-            <div class="item">
-                <h3>Gerente de projetos</h3>
-                <p>Empresa X</p>
-                <p>2022-Atual</p>
-            </div>
-        </section>
-
-        <section class="skills">
-                <h2>Habilidade 1</h2>
+                <div class="item">
+                    <h3>Neff Language Center</h3>
+                    <p>Curso de Inglês</p>
+                    <p><strong>2020-2024</strong></p>
+                </div>
+            </section>
+    
+            <section id="experience" class="experience">
+                <h2>Experiência profissional</h1>
+                <div class="item">
+                    <h3>Operador de produção</h3>
+                    <p>APTIV</p>
+                    <p>mar/2022 - may/2023</p>
+                    <p><strong>Enfaixamento de chicotes elétricos</strong></p>
+                </div>
+            </section>
+    
+            <section id="skills" class="skills">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>Desenvolvimento Web</li>
+                        <li>Desenvolvimento back-end</li>
+                        <li>Programação orientada a objetos</li>
+                        <li>Princípios SOLID</li>
+                        <li>Trabalho em equipe</li>
+                    </ul>
+            </section>
+    
+            <section id="projects" class="projects">
+                <h2>Projetos</h2>
                 <ul>
-                    <li>Desenvolvimento Web</li>
-                    <li>Desenvolvimento back-end</li>
-                    <li>Programação orientada a objetos</li>
-                    <li>Princípios SOLID</li>
+                    <li><a href="https://brunoodaniel.github.io/rotatop/paginaInicial/paginaInicial.html" target="_blank">Rota do Polvilho</a></li>
+                    <li><a href="https://github.com/brunoodaniel/EscolaDeIdiomas" target="_blank">Escola de Idiomas</a></li>
+                    <li><a href="https://github.com/brunoodaniel/RPGGame" target="_blank">Game RPG</a></li>
+                    <li><a href="https://github.com/brunoodaniel/VerificadorDeIdades" target="_blank">Verificador de Idades</a></li>
                 </ul>
-            </div>
         </section>
+        </main>
 
         <footer>
-            <p>2023 Bruno Daniel. Todos os direitos reservados.</p>
+            <p>2023 Bruno Daniel Silva. Todos os direitos reservados.</p>
         </footer>
 
+    <script src="script - aula01.js"></script>
     </body>
 </html>

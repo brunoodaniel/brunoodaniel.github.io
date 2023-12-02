@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(210, 208, 208, 0.618);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgb(107, 107, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30vw;
+    height: 50vh;
+}
+
+.container h2{
+    text-align: center;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+    color: white;
+}
+
+input, textarea{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid azure;
+    border-radius: 3px;
+}
+
+button{
+    background-color: rgb(64, 64, 197);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: rgb(182, 182, 238);
+    color: black;
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 70vw;
+    }
+}

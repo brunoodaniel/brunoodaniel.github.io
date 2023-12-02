@@ -6,12 +6,57 @@ body{
 }
 
 header{
-    background-color: rgb(110, 110, 233);
+    background-color: rgb(107, 107, 255);
     color: white;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+}
+
+#hamburguinho{
+    background-color: rgb(107, 107, 255);
+}
+
+header img{
+    border-radius: 50%;
+    height: auto;
+    width: 70px;
+    border: 3px solid #fff;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 30   px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.projects ul li a{
+    color: rgb(107, 107, 255);
+}
+
+.projects ul li a:hover{    
+    text-decoration: underline;
+    color: black;
 }
 
 #informações p{
@@ -20,45 +65,66 @@ header{
     justify-content: center;
 }
 
-.education{
-    margin: 10px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-.experience{
-    margin: 10px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-    background-color: white;
-
-}
-
-.skills{
-    margin: 10px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-    background-color: white;
-
-}
-
-#foto-perfil{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-
-section{
-    padding: 0px 20px 0px 20px;
-}
-
 footer p{
     display: flex;
-    background-color: rgb(110, 110, 233);
+    background-color: rgb(107, 107, 255);
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 0%;
     height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hamb-icone {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin: 20px;
+}
+
+.menuzinho {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    transition: left 0.5s ease; /* Adicione a transição aqui */
+}
+
+.menuzinho a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s ease; /* Adicione a transição aqui */
+}
+
+.menuzinho a:hover {
+    background-color: #555;
+}
+
+#informações, main, footer {
+    margin-left: 0;
+    transition: margin-left 0.5s ease; /* Adicione a transição aqui */
+}
+
+/* Adicione este estilo para o menu aberto */
+.open {
+    left: 0;
 }
